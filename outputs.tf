@@ -3,10 +3,10 @@
 
 output "groups" {
   description = "The groups."
-  value       = module.lz_groups.groups
+  value = oci_identity_group.these
 }
 
 output "memberships" {
-  description = "The memberships."
-  value       = module.lz_groups.memberships
+  description = "The group memberships."
+  value = local.group_memberships
 }
