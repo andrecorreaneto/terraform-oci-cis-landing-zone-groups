@@ -45,11 +45,3 @@ private_key_password=""
 # This is your tenancy home region.
 home_region="<your tenancy home region>"
 #
-
-tenancy_id         = "ocid1.tenancy.oc1..aaaaaaaa3pbmdv223ttwv4wjvmn4jvcw4gxc3skym74itutnnoisg5zrbnuq" #cislzground
-user_id            = "ocid1.user.oc1..aaaaaaaajhy4l62q5y2thovx4em2ttq3c35ff3hs3czsp6c7p45exoczufia" #andre.correa@oracle.com local
-
-fingerprint          = "47:dd:e6:92:c8:06:90:84:03:0f:94:30:8a:9d:48:2a" #tenant admin
-private_key_path     = "../private_key_cislzground.pem"
-private_key_password = ""
-home_region = "us-ashburn-1"
