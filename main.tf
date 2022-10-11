@@ -13,19 +13,18 @@ resource "oci_identity_group" "these" {
 }
 
 resource "oci_identity_user_group_membership" "these" {
-  for_each = { for m in local.group_memberships : "${m.group_name}.${m.user_name}" => m }
-    group_id = local.groups[each.value.group_name].id
+  for_each = { for m in local.group_memberships : "${m.group_key}.${m.user_name}" => m }
+    group_id = oci_identity_group.these[split(".",each.key)[0]].id
     user_id  = local.users[each.value.user_name].id
 }
 
 locals {
-  groups = { for g in oci_identity_group.these : g.name => g }
   users  = { for u in data.oci_identity_users.these.users : u.name => u }
 
   group_memberships = flatten([
     for k, v in var.groups : [
       for name in v.members : {
-        group_name = v.name
+        group_key  = k
         user_name  = name
       }
     ]

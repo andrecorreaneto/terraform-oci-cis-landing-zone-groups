@@ -8,5 +8,5 @@ output "groups" {
 
 output "memberships" {
   description = "The group memberships."
-  value = local.group_memberships
+  value = oci_identity_user_group_membership.these
 }
