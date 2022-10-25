@@ -17,76 +17,76 @@ groups = {
     description : "CIS Landing Zone IAM administrators group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"iam" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"iam-admin" }
   },
   CRED-ADMIN-GROUP  : { 
     name : "cislz-cred-admin-group",  
     description : "CIS Landing Zone credential administrators group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"cred" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"cred-admin" }
   },  
   COST-ADMIN-GROUP  : { 
     name : "cislz-cost-admin-group",  
     description : "CIS Landing Zone cost administrators group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"cost" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"cost-admin" }
   },                                        
   NETWORK-ADMIN-GROUP  : { 
     name : "cislz-network-admin-group",  
     description : "CIS Landing Zone Network administrators group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"network" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"network-admin" }
   },
   SECURITY-ADMIN-GROUP : { 
     name : "cislz-security-admin-group", 
     description : "CIS Landing Zone Security admininstrators group.",    
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"security" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"security-admin" }
   },
   APP-ADMIN-GROUP      : { 
     name : "cislz-app-admin-group",      
     description : "CIS Landing Zone Application admininstrators group.", 
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"application" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"application-admin" }
   },
   DATABASE-ADMIN-GROUP : { 
     name : "cislz-database-admin-group", 
     description : "CIS Landing Zone Database admininstrators group.",    
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"database" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"database-admin" }
   },
   EXAINFRA-ADMIN-GROUP : { 
     name : "cislz-exainfra-admin-group", 
     description : "CIS Landing Zone Exadata Cloud Service infrastructure admininstrators group.", 
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"exainfra" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"exainfra-admin" }
   },
   STORAGE-ADMIN-GROUP  : { 
     name : "cislz-storage-admin-group",  
     description : "CIS Landing Zone storage administrators group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"storage" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"storage-admin" }
   }, 
   AUDITOR-GROUP  : { 
     name : "cislz-auditor-group",  
     description : "CIS Landing Zone auditor group.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"auditor" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"auditor" }
   },    
   ANNOUNCEMENT-READER-GROUP  : { 
     name : "cislz-announcement-reader-group",  
     description : "CIS Landing Zone group for reading OCI announcements.",      
     members : [], 
     defined_tags : null, 
-    freeform_tags : {"cis-landing-zone":"quickstart","grp-type":"announcement-reader" }
+    freeform_tags : {"cis-landing-zone":"quickstart","roles":"announcement-reader" }
   }                                                                
 }
