@@ -4,11 +4,11 @@
 #--------------------------------------------------------------------------------------------------------------
 # The groups variable defines a Terraform object describing any set of OCI IAM groups.
 # The object defines sub-objects indexed by uppercased strings, like IAM-ADMIN-GROUP, COST-ADMIN-GROUP, etc.
-# These strings can actually be any random string, but once defined they MUST NOT BE CHANGED, 
+# These strings can actually be any random strings, but once defined they MUST NOT BE CHANGED, 
 # or Terraform will try to destroy and recreate the groups.
 # The sub-objects have a members attribute that is used to assign users to the group. 
 # Note that users are not created, they must exist beforehand.
-# To assign users, pass the respective user names you want to be members of the group.
+# To assign users, pass the respective user names you want as group members.
 #---------------------------------------------------------------------------------------------------------------
 
 groups = {  

@@ -8,7 +8,7 @@ CIS (Center for Internet Security) OCI Foundations Benchmark recommends the usag
 
 Check [module specification](./SPEC.md) for a full description of module requirements, supported variables, managed resources and outputs.
 
-Check the [examples](./examples/) folder for module usage. Specifically, see [cis-landing-zone-quickstart](./examples/cis-landing-zone-quickstart/README.md) example for the groups deployed by [CIS OCI Landing Zone Quickstart](https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart).
+Check the [examples](./examples/) folder for module usage. Specifically, see [cis-landing-zone-quickstart](./examples/cis-landing-zone-quickstart/README.md) example for the groups deployed by [CIS OCI Landing Zone Quick Start](https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart).
 
 ## Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
