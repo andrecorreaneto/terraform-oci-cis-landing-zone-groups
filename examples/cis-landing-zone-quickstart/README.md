@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This example shows how to deploy CIS Landing Zone Quick Start groups in Oracle Cloud Infrastructure.
+This example shows how to deploy [CIS Landing Zone Quick Start](https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart) groups in Oracle Cloud Infrastructure.
 
 It creates the following groups as shown in the picture below:
 
